@@ -1,0 +1,95 @@
+{
+   "packageName": "CoCoConz (DeCONZ Integration)",
+   "minimumHEVersion": "2.2.3",
+   "author": "Robert Morris",
+   "dateReleased": "2020-01-10",
+   "communityLink": "https://community.hubitat.com/t/COMING-SOON",
+   "licenseFile": "",
+   "releaseNotes": "Version 0.9: Initial release; substantial portions based on CoCoHue.",
+   "apps": [
+      {
+         "id": "c2df79ee-2e58-45ea-bfd0-3c63f5f848ac",
+         "name": "CoCoConz - DeCONZ Integration",
+         "namespace": "RMoRobert",
+         "location": "https://raw.githubusercontent.com/RMoRobert/CoCoConz/main/cococonz-app.groovy",
+         "required": true,
+         "version": "0.9.0",
+         "primary": true,
+         "oauth": false
+      }
+   ],
+   "drivers": [
+      {
+         "id": "ced4912d-99c1-4910-a0af-916db73e8286",
+         "name": "CoCoConz Button",
+         "namespace": "RMoRobert",
+         "location": "https://raw.githubusercontent.com/RMoRobert/CoCoConz/main/cococonz/cococonz-button-driver.groovy",
+         "version": "0.90",
+         "required": true
+      },
+      {
+         "id": "539ec9ff-0e85-4c39-a646-286275e509ea",
+         "name": "CoCoConz Gateway",
+         "namespace": "RMoRobert",
+         "location": "https://raw.githubusercontent.com/RMoRobert/CoCoConz/main/cococonz/cococonz-gateway-driver.groovy",
+         "version": "0.90",
+         "required": true
+      },
+      {
+         "id": "9f72faa7-bb40-42b9-abea-ed8cf3486e79",
+         "name": "CoCoConz CT Bulb",
+         "namespace": "RMoRobert",
+         "location": "https://raw.githubusercontent.com/RMoRobert/CoCoConz/main/cococonz/cococonz-ct-bulb-driver.groovy",
+         "version": "0.90",
+         "required": true
+      },
+      {
+         "id": "aa89320f-388a-4095-9fce-11df2c3e7a79",
+         "name": "CoCoConz Dimmable Bulb",
+         "namespace": "RMoRobert",
+         "location": "https://raw.githubusercontent.com/RMoRobert/CoCoConz/main/cococonz/cococonz-dimmable-bulb-driver.groovy",
+         "version": "0.90",
+         "required": true
+      },
+      {
+         "id": "71064ea1-aaf7-410c-8f15-2bddf2172e08",
+         "name": "CoCoConz Group",
+         "namespace": "RMoRobert",
+         "location": "https://raw.githubusercontent.com/RMoRobert/CoCoConz/main/cococonz/cococonz-group-driver.groovy",
+         "version": "0.90",
+         "required": true
+      },
+      {
+         "id": "9072a82e-968f-4b6e-944b-bf39c093f01e",
+         "name": "CoCoConz Motion/Temperature/Lux Sensor",
+         "namespace": "RMoRobert",
+         "location": "https://raw.githubusercontent.com/RMoRobert/CoCoConz/main/cococonz/cococonz-motion-temp-lux-driver.groovy",
+         "version": "0.90",
+         "required": true
+      },
+      {
+         "id": "05da277f-7550-4b11-9e2d-2b78d5cb2409",
+         "name": "CoCoConz On/Off Plug",
+         "namespace": "RMoRobert",
+         "location": "https://raw.githubusercontent.com/RMoRobert/CoCoConz/main/cococonz/cococonz-plug-driver.groovy",
+         "version": "0.90",
+         "required": true
+      },
+      {
+         "id": "eb3cb734-02fe-49df-a71c-14717037fb9a",
+         "name": "CoCoConz RGBW Bulb",
+         "namespace": "RMoRobert",
+         "location": "https://raw.githubusercontent.com/RMoRobert/CoCoConz/main/cococonz/cococonz-rgbw-bulb-driver.groovy",
+         "version": "0.90",
+         "required": true
+      },
+      {
+         "id": "5692f9c1-80b3-4f90-b00e-5de6354deab7",
+         "name": "CoCoConz Scene",
+         "namespace": "RMoRobert",
+         "location": "https://raw.githubusercontent.com/RMoRobert/CoCoConz/main/cococonz/cococonz-scene-driver.groovy",
+         "version": "0.90",
+         "required": true
+      }
+   ]
+}
